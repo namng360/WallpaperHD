@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">WallpaperHD</string>
+
+
+    //menu item
+    <string name="latest">Latest</string>
+    <string name="category">Category</string>
+    <string name="gifs">GIFs</string>
+    <string name="favorites">My Favoriest</string>
+    <string name="rate">Rate App</string>
+    <string name="more">More App</string>
+    <string name="about">About Us</string>
+    <string name="setting">Setting</string>
+    <string name="privacy">Privacy Police</string>
+
+    //
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Amazing Wallpaper in your way</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_latest">Latest</string>
+    <string name="menu_categorie">Category</string>
+    <string name="menu_gif">GIFs</string>
+    <string name="menu_favorite">My Favorite</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_more">More App</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_privacy">Privacy Police</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="aboutus">About us</string>
+    <string name="infoEmail">giangnam365@gmail.com</string>
+    <string name="infoCompany">FPT Polytechnic</string>
+    <string name="infoWeb">google.com.vn</string>
+    <string name="infoTell">(+84) 96 3051 094</string>
+    <string name="version">1.0.0</string>
+</resources>

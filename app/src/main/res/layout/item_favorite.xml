@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phd"/>
+
+        <ImageView
+            android:id="@+id/imgLike"
+            android:src="@drawable/ic_favorite"
+            android:background="@color/colorBlackOpacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

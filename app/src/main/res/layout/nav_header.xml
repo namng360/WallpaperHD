@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hd"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_app_nav" />
+
+        <TextView
+            android:layout_below="@id/hd"
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:text="Amazing Wallpaper in your way"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/colorWhite"/>
+
+
+</RelativeLayout>

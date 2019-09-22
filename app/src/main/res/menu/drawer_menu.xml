@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@drawable/lastest"
+            android:title="@string/latest" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/category"
+            android:title="@string/category" />
+
+        <item
+            android:id="@+id/nav_gifs"
+            android:icon="@drawable/gifs"
+            android:title="@string/gifs" />
+
+        <item
+            android:id="@+id/nav_favoriest"
+            android:icon="@drawable/ic_favorite_border"
+            android:title="@string/favorites" />
+
+        <item
+            android:id="@+id/nav_rate_app"
+            android:icon="@drawable/rate"
+            android:title="@string/rate" />
+
+        <item
+            android:id="@+id/nav_more_app"
+            android:icon="@drawable/moreapp"
+            android:title="@string/more" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/about"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="@string/setting" />
+
+        <item
+            android:id="@+id/nav_privacy_police"
+            android:icon="@drawable/privacy"
+            android:title="@string/privacy" />
+
+    </group>
+
+</menu>
